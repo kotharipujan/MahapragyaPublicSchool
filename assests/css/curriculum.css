@@ -1,0 +1,103 @@
+/* General Styling */
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Logo Section */
+#mobile-logo {
+    width: 100%;
+    height: 12%;
+    background-color: white;
+    padding: 10px 0;
+}
+
+#mobile-logo img {
+    margin-right: 10px;
+}
+
+#mobile-logo font {
+    font-size: 27px;
+    font-family: 'Lato';
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #63B8FF;
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+/* Form Box */
+.container {
+    margin-top: 30px;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(59deg, #3A6073, #16222A);
+    color: white;
+    margin-top: 50px;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #fff;
+    font-size: 14px;
+    transition-duration: 0.2s;
+}
+
+footer a:hover {
+    color: #FA944B;
+    text-decoration: none;
+}
+
+.copy {
+    font-size: 12px;
+    padding: 10px;
+    border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+    padding-top: 2em;
+    color: white;
+}
+
+/* Social Icons */
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+
+.social-network a {
+    background-color: #F9F9F9;
+}
+
+.social-network a:hover i {
+    color: #44BCDD;
+}
+
+.social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.social-circle li a:hover i {
+    transform: rotate(360deg);
+    transition: all 0.2s;
+}

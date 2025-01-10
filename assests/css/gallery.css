@@ -1,0 +1,6 @@
+  .padding{
+    border: 10px;
+  padding: 15px 15px 15px 15px;
+  background: #f0f8ff;
+  background-clip: padding-box;
+}
